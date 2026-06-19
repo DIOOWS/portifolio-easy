@@ -1061,3 +1061,32 @@ nt-size:9px;
     }
 
 }
+
+
+
+.service-card{
+  position:relative;
+}
+
+.service-icon{
+  position:absolute;
+  top:15px;
+  right:15px;
+  z-index:3;
+  width:42px;
+  height:42px;
+  border:2px solid rgba(255,255,255,.9);
+  border-radius:12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-size:24px;
+  font-weight:900;
+  background:rgba(255,255,255,.08);
+  backdrop-filter:blur(4px);
+  box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+
+}
